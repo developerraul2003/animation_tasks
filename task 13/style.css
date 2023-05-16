@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+.main{
+    width: 800px;
+    height: 400px;
+    background-color:white;
+   position: relative;
+   margin: 200px auto;
+}
+.p1{
+color: black;
+background-color: white;
+/* position: absolute; */
+margin-top: -40px;
+margin-left: 5px;
+font-size: 25px;
+font-weight: 900;
+}
+.p2{
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: -50px;
+}
+.box1{
+    width: 350px;
+    height: 65px;
+    position: absolute;
+    border: 1px solid blue;
+    background-color: white;
+    left: 250px;
+    top: 90px;
+}
+
+
+.box2{
+    width: 350px;
+    height: 65px;
+    position: absolute;
+    border: 1px solid blue;
+    background-color: white;
+    left: 250px;
+    top: 230px;
+}
+.box11{
+    width: 150px;
+    height: 65px;
+   background-color: blue;
+    margin-top: 10.5px;
+    transition: width 2s;
+    transition-delay: 2s;
+    animation-name: box111;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+.box22{
+    width: 150px;
+    height: 65px;
+    background-color: blue;
+    margin-top: 20.5px;
+    transition: width 2s;
+    animation-name: box222;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ 
+}
+
+
+
+@keyframes box111 {
+    0%{
+       width: 150px;
+    }
+    
+    50%{
+        width: 200px;
+        animation-delay: 3s;
+
+    }
+    75%{
+width: 300px;
+
+    }
+    100%{
+        width: 150px;
+     }
+}
+@keyframes box222 {
+    0%{
+       width: 150px;
+       transition-delay: 6s;
+    }
+    
+    50%{
+        width: 225px;
+        animation-delay: 4s;
+
+    }
+    75%{
+width:300px;
+
+    }
+    100%{
+        width: 150px;
+     }
+}

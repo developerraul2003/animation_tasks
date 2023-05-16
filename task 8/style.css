@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  background-color: black;
+  
+}
+.black{
+    width: 400px;
+    height: 300px;
+    background-color: whitesmoke;
+    margin-left: 550px;
+    margin-top: 250px;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.black:hover .yazi{
+    cursor: pointer;
+    background-color: rgb(148, 132, 163);
+    border-radius:0px ;
+}
+
+.yazi{
+    background-color: rgb(54, 4, 100);
+    width: 250px;
+    height: 250px;
+    color: white;
+    border: 1px solid  rgb(54, 4, 100) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 15px;
+}
+
+

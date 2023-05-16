@@ -1,0 +1,39 @@
+.main{
+
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: rebeccapurple;
+    animation-name: box1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes box1 {
+    0%{
+left: 0px;
+top: 0px;
+background-color: rebeccapurple;
+    }
+    25%{
+        left: 0px;
+        top: 0px;
+        background-color: red;
+    }
+    50%{
+        left: 0px;
+        top: 0px;
+        background-color: yellowgreen;
+    }
+    75%{
+        left: 0px;
+        top: 0px;
+        background-color: goldenrod;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+        background-color: skyblue;
+    }
+}

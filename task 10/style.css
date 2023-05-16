@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(234, 177, 102);
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.box1{
+width: 100px;
+height: 100px;
+background-color: rgb(45, 120, 120);
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight:900 ;
+
+margin-top: 50px;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(45, 120, 120);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:900 ;
+  margin-top: 50px;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(45, 120, 120);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:900 ;
+   margin-top: 50px;
+}
+.box1:hover{
+    cursor: pointer;
+    animation-name: box11;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
+    animation-iteration-count: 1;
+}
+.box2:hover{
+    cursor: pointer;
+    animation-name: box22;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+}
+.box3:hover{
+    cursor: pointer;
+    animation-name: box33;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+}
+@keyframes box11 {
+    from{
+       transform: rotateX(0deg);
+    }
+    to{
+       transform: rotateX(360deg); 
+    }
+    
+}
+@keyframes box22 {
+    from{
+       transform: rotateY(0deg);
+    }
+    to{
+       transform: rotateY(360deg); 
+    }
+    
+}
+@keyframes box33 {
+    from{
+       transform: rotateZ(0deg);
+    }
+    to{
+       transform: rotateZ(360deg); 
+    }
+    
+}

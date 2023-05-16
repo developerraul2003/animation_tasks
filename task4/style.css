@@ -1,0 +1,117 @@
+h1{
+    margin-top: 13%;
+    margin-left: 50%;
+    position: relative;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(9, 86, 86);
+  position: absolute;
+  top: 110px;
+  left: 800px;
+}
+.box2{
+width: 150px;
+height: 150px;
+background-color: rgb(130, 76, 11);
+position: absolute;
+top: 110px;
+left:650px
+}
+.box3{
+width: 150px;
+height: 150px;
+background-color: blue;
+position: absolute;
+top: 260px;
+left:650px ;
+}
+.box4{
+width: 150px;
+height: 150px;
+background-color: brown;
+position: absolute;
+top: 260px;
+left: 800px;
+}
+.main:hover .box1{
+    cursor: pointer;
+    animation-name:raul ;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode:backwards ;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  
+
+}
+.main:hover .box2{
+    cursor: pointer;
+    animation-name:raul2 ;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode:backwards ;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+
+
+}
+.main:hover .box3{
+    cursor: pointer;
+    animation-name:raul3 ;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode:backwards ;
+    animation-iteration-count:2;
+    animation-direction: alternate;
+
+
+}
+.main:hover .box4{
+    cursor: pointer;
+    animation-name:raul4 ;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode:backwards ;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+ 
+
+}
+@keyframes raul {
+   from{
+          transform: rotate(0deg);
+   }
+   to{
+transform: rotate(90deg);
+transform-origin:bottom right  ;
+   } 
+}
+@keyframes raul2 {
+   from{
+          transform: rotate(0deg);
+   }
+   to{
+transform: rotate(-90deg);
+transform-origin:bottom left  ;
+   } 
+}
+@keyframes raul3 {
+   from{
+          transform: rotate(0deg);
+   }
+   to{
+transform: rotate(-90deg);
+transform-origin:bottom left  ;
+   } 
+}
+@keyframes raul4 {
+   from{
+          transform: rotate(0deg);
+   }
+   to{
+transform: rotate(90deg);
+transform-origin: bottom right  ;
+   } 
+}

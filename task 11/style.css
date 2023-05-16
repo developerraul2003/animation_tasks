@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+.square{
+    width: 600px;
+    height:500px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 500px;
+    margin-top: 180px;
+   
+
+}
+.gray{
+    width: 550px;
+    height: 480px;
+    background-color: gray;
+    margin:8px auto;
+    opacity: 0.8;
+    position: relative;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+animation-name: box1;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+
+}
+@keyframes box1 {
+    0%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+        border-radius: 100px;
+        
+    }
+    25%{
+        background-color: darkcyan;
+        left: 440px;
+        top: 0px;
+        border-radius: 0px;
+    }
+    50%{
+        background-color: forestgreen;
+        left: 440px;
+        top: 330px;
+        border-radius: 100px;
+    }
+    75%{
+        background-color: darkorange;
+        left: 0px;
+        top:300px;
+        border-radius:0px;
+    }
+    100%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+        border-radius: 100px;
+    }
+}

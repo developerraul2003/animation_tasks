@@ -1,0 +1,89 @@
+h1{
+    text-align: center;
+    color: green;
+    font-size: 40px;
+}
+h3{
+    text-align: center;
+   
+
+}
+
+.main2{
+    font-weight: 900; 
+    font-size: 30px;
+     position: relative;
+ 
+}
+.p1{
+    
+ position: absolute;
+ left:1000px;
+ animation-name: p11;
+ animation-duration: 2s;
+ animation-direction: normal;
+ animation-iteration-count: infinite;
+}
+ .p2{
+    position: absolute;
+   top: 50px;
+   left: 1000px;
+    animation-name: p22;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+.p3{
+    position: absolute;
+    top:110px;
+   left: 1000px;
+    animation-name: p33;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.p4{
+    position: absolute;
+    top: 160px;
+    left:1000px;
+    animation-name: p44;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes p11 {
+    from{
+       left: 0px;
+    }
+    to{
+right: 0px;
+    }
+    
+}
+@keyframes p22 {
+    from{
+       left: 0px;
+    }
+    to{
+right: 0px;
+    }
+    
+}
+@keyframes p33 {
+    from{
+       left: 0px;
+    }
+    to{
+right: 0px;
+    }
+    
+}
+@keyframes p44 {
+    from{
+       left: 0px;
+    }
+    to{
+right: 0px;
+    }
+    
+}
